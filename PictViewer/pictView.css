@@ -1,0 +1,22 @@
+ul {
+      margin-left: 0;
+      padding-left: 0;
+      display: inline-flex;
+}
+
+ul li {
+      margin-left: 0;
+      margin-bottom: 0;
+      padding: 6px;
+      border: 1px solid #000;
+      list-style: none;
+      display: inline-flex;
+      background-color: #75fbce;
+}
+
+.animate {
+  margin-left: -264px;
+  transition-property: margin-left;
+  transition-duration: .2s;
+  transition-timing-function: linear;
+}
